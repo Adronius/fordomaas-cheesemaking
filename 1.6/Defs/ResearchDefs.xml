@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--
 	<ResearchTabDef>
 		<defName>FD_CM_CheesemakingResearchTab</defName>
 		<label>Cheesemaking</label>
@@ -9,9 +8,10 @@
 	</ResearchTabDef>
 	
 	<ResearchProjectDef>
+		<tab>FD_CM_CheesemakingResearchTab</tab>
 		<defName>FD_CM_BasicCheesemaking</defName>
 		<label>basic cheesemaking</label>
-		<description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove.</description>
+		<description>Make cheese by curlding milk and aging it on a cheese shelf.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<tags>
@@ -20,15 +20,56 @@
 		<researchViewY>0.70</researchViewY>
 		<generalRules>
 			<rulesStrings>
-				<li>subject->psychoid</li>
+				<li>subject->cheesemaking</li>
 
-				<li>subject_story->joined a short-lived psychoid commune on a cult world</li>
-				<li>subject_story->experimented with psychoid to help traumatized soldiers</li>
-				<li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
+				<li>subject_story->took up caseiculture</li>
 
-				<li>subject_gerund->brewing psychoid</li>
+				<li>subject_gerund->making cheese</li>
 			</rulesStrings>
 		</generalRules>
 	</ResearchProjectDef>
--->
+	
+	<ResearchProjectDef>
+		<tab>FD_CM_CheesemakingResearchTab</tab>
+		<defName>FD_CM_StandardCheesemaking</defName>
+		<label>standard cheesemaking</label>
+		<description>Discover novel ways to make cheese.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<tags>
+		</tags>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->cheesemaking</li>
+
+				<li>subject_story->took up caseiculture</li>
+
+				<li>subject_gerund->making cheese</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<tab>FD_CM_CheesemakingResearchTab</tab>
+		<defName>FD_CM_AdvancedCheesemaking</defName>
+		<label>standard cheesemaking</label>
+		<description>Even more advanced techniques in cheesecraft!</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tags>
+		</tags>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->cheesemaking</li>
+
+				<li>subject_story->took up caseiculture</li>
+
+				<li>subject_gerund->making cheese</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
 </Defs>
