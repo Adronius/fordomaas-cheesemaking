@@ -16,6 +16,8 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>0.70</researchViewY>
+		<prerequisites>
+		</prerequisites>
 		<generalRules>
 			<rulesStrings>
 				<li>subject->cheesemaking</li>
@@ -36,6 +38,9 @@
 		<techLevel>Medieval</techLevel>
 		<researchViewX>4.00</researchViewX>
 		<researchViewY>0.70</researchViewY>
+		<prerequisites>
+			<li>FD_CM_BasicCheesemaking</li>
+		</prerequisites>
 		<generalRules>
 			<rulesStrings>
 				<li>subject->cheesemaking</li>
@@ -65,5 +70,9 @@
 				<li>subject_gerund->making cheese</li>
 			</rulesStrings>
 		</generalRules>
+		<prerequisites>
+			<li>FD_CM_BasicCheesemaking</li>
+			<li>FD_CM_StandardCheesemaking</li>
+		</prerequisites>
 	</ResearchProjectDef>
 </Defs>
