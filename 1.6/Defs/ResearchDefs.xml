@@ -14,8 +14,6 @@
 		<description>Make cheese by curlding milk and aging it on a cheese shelf.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<tags>
-		</tags>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>0.70</researchViewY>
 		<generalRules>
@@ -36,8 +34,6 @@
 		<description>Discover novel ways to make cheese.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Medieval</techLevel>
-		<tags>
-		</tags>
 		<researchViewX>4.00</researchViewX>
 		<researchViewY>0.70</researchViewY>
 		<generalRules>
@@ -58,8 +54,6 @@
 		<description>Even more advanced techniques in cheesecraft!</description>
 		<baseCost>1200</baseCost>
 		<techLevel>Industrial</techLevel>
-		<tags>
-		</tags>
 		<researchViewX>6.00</researchViewX>
 		<researchViewY>0.70</researchViewY>
 		<generalRules>
