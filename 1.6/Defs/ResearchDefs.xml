@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+	<ResearchTabDef>
+		<defName>FD_CM_CheesemakingResearchTab</defName>
+		<label>Cheesemaking</label>
+		<generalTitle>Cheesemaking research projects</generalTitle>
+		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+		<defName>FD_CM_BasicCheesemaking</defName>
+		<label>basic cheesemaking</label>
+		<description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+		</tags>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->psychoid</li>
+
+				<li>subject_story->joined a short-lived psychoid commune on a cult world</li>
+				<li>subject_story->experimented with psychoid to help traumatized soldiers</li>
+				<li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
+
+				<li>subject_gerund->brewing psychoid</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+-->
+</Defs>
