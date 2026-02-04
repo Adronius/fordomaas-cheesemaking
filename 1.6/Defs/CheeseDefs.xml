@@ -241,7 +241,7 @@
 	<ThingDef ParentName="MealBase">
 		<defName>FD_CMM_Ricotta</defName>
 		<label>ricotta</label>
-		<description>A soft, creamy white, slightly sweet cheese.</description>
+		<description>A soft, creamy, slightly sweet white cheese.</description>
 		<graphicData>
 			<texPath>Things/Cheeses/Ricotta</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
