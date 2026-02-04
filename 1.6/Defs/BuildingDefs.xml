@@ -219,7 +219,7 @@
 			</buildingTags>
 		</building>
 		<researchPrerequisites>
-			<li>FD_CM_AdvancedCheesemaking</li> <!-- Change this -->
+			<li>FD_CM_AdvancedCheesemaking</li>
 			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>

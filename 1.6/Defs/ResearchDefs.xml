@@ -64,7 +64,6 @@
 			</rulesStrings>
 		</generalRules>
 		<prerequisites>
-			<li>FD_CM_BasicCheesemaking</li>
 			<li>FD_CM_StandardCheesemaking</li>
 		</prerequisites>
 	</ResearchProjectDef>
