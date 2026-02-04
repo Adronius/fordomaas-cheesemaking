@@ -67,15 +67,14 @@
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<researchPrerequisites>
-			<li>ComplexFurniture</li>
-			<li>Brewing</li> <!-- Change this -->
+			<li>FD_CM_BasicCheesemaking</li>
 		</researchPrerequisites>
-		
 	</ThingDef>
-		<ThingDef ParentName="BuildingBase">
+	
+	<ThingDef ParentName="BuildingBase">
 		<defName>FD_CMM_CheeseFridge</defName>
 		<label>cheese fridge</label>
-		<description>An electrical refrigerator calibrated to the perfect temperature for aging curds into cheese.</description>
+		<description>An electrical refrigerator calibrated to the perfect temperature for aging curds into cheese, with twice the capacity of a shelf.</description>
 <!--		<thingClass>Building_FermentingBarrel</thingClass> -->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -119,7 +118,7 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>20</capacity>
+				<capacity>40</capacity>
 				<independentProcesses>false</independentProcesses>
 				<parallelProcesses>false</parallelProcesses>
 				<dropIngredients>true</dropIngredients>
@@ -151,7 +150,7 @@
 			</buildingTags>
 		</building>
 		<researchPrerequisites>
-			<li>Brewing</li> <!-- Change this -->
+			<li>FD_CM_StandardCheesemaking</li>
 			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>
@@ -196,7 +195,7 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>80</capacity>
+				<capacity>40</capacity>
 				<independentProcesses>false</independentProcesses>
 				<parallelProcesses>false</parallelProcesses>
 				<dropIngredients>true</dropIngredients>
@@ -220,7 +219,7 @@
 			</buildingTags>
 		</building>
 		<researchPrerequisites>
-			<li>Brewing</li> <!-- Change this -->
+			<li>FD_CM_AdvancedCheesemaking</li> <!-- Change this -->
 			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>

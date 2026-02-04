@@ -30,6 +30,9 @@
 			<FD_CMM_Curd>10</FD_CMM_Curd>
 		</products>
 		<workSkill>Cooking</workSkill>
+		<researchPrerequisites>
+			<li>FD_CM_BasicCheesemaking</li>
+		</researchPrerequisites>
 	</RecipeDef>
 <!--
 	<RecipeDef>
