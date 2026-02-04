@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ResearchTabDef>
-		<defName>FD_CM_CheesemakingResearchTab</defName>
-		<label>Cheesemaking</label>
-		<generalTitle>Cheesemaking research projects</generalTitle>
-		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
-	</ResearchTabDef>
-	
 	<ResearchProjectDef>
 		<tab>FD_CM_CheesemakingResearchTab</tab>
 		<defName>FD_CM_BasicCheesemaking</defName>
@@ -14,8 +7,8 @@
 		<description>Make cheese by curlding milk and aging it on a cheese shelf.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>2.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
 		<prerequisites>
 		</prerequisites>
 		<generalRules>
@@ -36,8 +29,8 @@
 		<description>Discover novel ways to make cheese.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>4.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
 		<prerequisites>
 			<li>FD_CM_BasicCheesemaking</li>
 		</prerequisites>
@@ -59,8 +52,8 @@
 		<description>Even more advanced techniques in cheesecraft!</description>
 		<baseCost>1200</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>6.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
 		<generalRules>
 			<rulesStrings>
 				<li>subject->cheesemaking</li>
