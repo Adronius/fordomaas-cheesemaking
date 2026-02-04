@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>FD_Make_Curds</defName>
+		<label>make curds</label>
+		<description>Curdle milk to be aged into cheese.</description>
+		<jobString>Making curds.</jobString>
+		<workAmount>450</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<FD_CMM_Curd>10</FD_CMM_Curd>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+<!--
+	<RecipeDef>
+		<defName>FD_Make_SimpleCharcuterieBoard</defName>
+		<label>make simple charcuterie board</label>
+		<description>Assemble a simple charcuterie board.</description>
+		<jobString>Making simple charcuterie board.</jobString>
+		<workAmount>450</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Cheeses</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.05</count>
+			</li>
+		</ingredients>
+		<products>
+			<FD_CMM_SimpleCharcuterieBoard>1</FD_CMM_SimpleCharcuterieBoard>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>FD_Make_FineCharcuterieBoard</defName>
+		<label>make fine charcuterie board</label>
+		<description>Assemble a fine charcuterie board.</description>
+		<jobString>Making fine charcuterie board.</jobString>
+		<workAmount>700</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Cheeses</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>0.05</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.05</count>
+			</li>
+		</ingredients>
+		<products>
+			<FD_CMM_FineCharcuterieBoard>1</FD_CMM_FineCharcuterieBoard>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>FD_Make_LavishCharcuterieBoard</defName>
+		<label>make lavish charcuterie board</label>
+		<description>Assemble a lavish charcuterie board.</description>
+		<jobString>Making lavish charcuterie board.</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Cheeses</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>0.05</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.05</count>
+			</li>
+		</ingredients>
+		<products>
+			<FD_CMM_LavishCharcuterieBoard>1</FD_CMM_LavishCharcuterieBoard>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+-->
+</Defs>

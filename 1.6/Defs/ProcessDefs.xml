@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Curd</defName>
+		<thingDef>FD_CMM_Curd</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>0.1</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>-1.0~32.0</temperatureSafe>
+		<temperatureIdeal>7.0~32.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Ricotta -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Ricotta</defName>
+		<thingDef>FD_CMM_Ricotta</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>1</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Ricotta_Fridge</defName>
+		<thingDef>FD_CMM_Ricotta</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>1</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Mozzarella -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Mozzarella</defName>
+		<thingDef>FD_CMM_Mozzarella</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>3</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Mozzarella_Fridge</defName>
+		<thingDef>FD_CMM_Mozzarella</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>3</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Blue Cheese -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_BlueCheese</defName>
+		<thingDef>FD_CMM_BlueCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>10</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_BlueCheese_Fridge</defName>
+		<thingDef>FD_CMM_BlueCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>10</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Camembert -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Camembert</defName>
+		<thingDef>FD_CMM_Camembert</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>7</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Camembert_Fridge</defName>
+		<thingDef>FD_CMM_Camembert</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>7</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Feta -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Feta</defName>
+		<thingDef>FD_CMM_Feta</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>15</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Feta_Fridge</defName>
+		<thingDef>FD_CMM_Feta</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>15</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Parmesan -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Parmesan</defName>
+		<thingDef>FD_CMM_Parmesan</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>60</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Parmesan_Fridge</defName>
+		<thingDef>FD_CMM_Parmesan</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>60</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Gouda -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Gouda</defName>
+		<thingDef>FD_CMM_Gouda</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>30</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Gouda_Fridge</defName>
+		<thingDef>FD_CMM_Gouda</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>30</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<!-- Cheddar -->
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Cheddar</defName>
+		<thingDef>FD_CMM_Cheddar</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>22</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>FD_Cheddar_Fridge</defName>
+		<thingDef>FD_CMM_Cheddar</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>FD_CMM_Curd</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>22</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>false</usesTemperature>
+		<temperatureSafe>10.0~17.0</temperatureSafe>
+		<temperatureIdeal>12.0~15.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>0.1</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+		<bonusOutputs>
+		</bonusOutputs>
+	</ProcessorFramework.ProcessDef>
+</Defs>

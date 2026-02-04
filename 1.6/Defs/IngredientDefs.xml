@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+	<ThingDef ParentName="MealBase">
+		<defName>FD_CMM_Rennet</defName>
+		<label>rennet</label>
+		<description>Rennet desc.</description>
+		<graphicData>
+			<texPath>Things/Misc/Rennet/Rennet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Buyable</tradeability>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<MarketValue>1.20</MarketValue>
+			<WorkToMake>400</WorkToMake>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Drugs</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>RawTasty</preferability>			
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+-->
+	<ThingDef ParentName="MealBase">
+		<defName>FD_CMM_Curd</defName>
+		<label>curds</label>
+		<description>Curdled milk for making cheese.</description>
+		<graphicData>
+			<texPath>Things/Misc/Curd/Curd</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>40</stackLimit>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+			<Mass>0.045</Mass>
+			<Flammability>0.2</Flammability>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>			
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
+</Defs>

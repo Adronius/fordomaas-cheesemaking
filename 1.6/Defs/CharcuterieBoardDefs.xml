@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+	<ThingDef ParentName="MealBase">
+		<defName>FD_CMM_SimpleCharcuterieBoard</defName>
+		<label>simple charcuterie board</label>
+		<description>One or two types of cheese served with some fruit or protein on a board.</description>
+		<graphicData>
+			<texPath>Things/CharcuterieBoards/Simple/FD_CMM_SimpleCharcuterieBoard</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Buyable</tradeability>
+		<stackLimit>10</stackLimit>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>8</DeteriorationRate>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Cheeses</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>			
+			<joy>0.2</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealBase">
+		<defName>FD_CMM_FineCharcuterieBoard</defName>
+		<label>fine charcuterie board</label>
+		<description>A decent variety of cheeses served with fruit and protein on a board.</description>
+		<graphicData>
+			<texPath>Things/CharcuterieBoards/Fine/FD_CMM_FineCharcuterieBoard</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Buyable</tradeability>
+		<stackLimit>10</stackLimit>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>8</DeteriorationRate>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Cheeses</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>RawTasty</preferability>		
+			<joy>0.07</joy>
+			<joyKind>Gluttonous</joyKind>
+			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealBase">
+		<defName>FD_CMM_LavishCharcuterieBoard</defName>
+		<label>lavish charcuterie board</label>
+		<description>A lavish variety of cheeses served with fruit and protein on a board.</description>
+		<graphicData>
+			<texPath>Things/CharcuterieBoards/Lavish/FD_CMM_LavishCharcuterieBoard</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Buyable</tradeability>
+		<stackLimit>10</stackLimit>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>8</DeteriorationRate>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Cheeses</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>RawTasty</preferability>		
+			<joy>0.07</joy>
+			<joyKind>Gluttonous</joyKind>
+			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+-->
+</Defs>
