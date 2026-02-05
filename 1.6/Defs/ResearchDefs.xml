@@ -48,7 +48,7 @@
 	<ResearchProjectDef>
 		<tab>FD_CM_CheesemakingResearchTab</tab>
 		<defName>FD_CM_AdvancedCheesemaking</defName>
-		<label>standard cheesemaking</label>
+		<label>advanced cheesemaking</label>
 		<description>Even more advanced techniques in cheesecraft!</description>
 		<baseCost>1200</baseCost>
 		<techLevel>Industrial</techLevel>
